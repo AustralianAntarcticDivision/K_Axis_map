@@ -1,5 +1,5 @@
 # README : K_Axis_map
-Sophie Bestley, Mike Sumner, Rowan Trebilco
+Rowan Trebilco, Mike Sumner
 18 May 2017
 
 This repository provides basic scripts for mapping the K-axis voyage and sampling stations using R
