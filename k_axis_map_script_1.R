@@ -42,7 +42,7 @@ ks <- spTransform(ks, CRS(prj))
   # or gebco
   #cbathy<- readtopo("gebco_08", xylim=extent(ras.ext2))
   # or if file is present locally as raster tif
-  raster("bathy.tif")
+  cbathy <- raster("bathy.tif")
   # lines
   cbc   <- rasterToContour(cbathy, levels=c(-500,-1000,-2000,-3000, -6000))
   cbct  <- spTransform(cbc, CRS(prj))
