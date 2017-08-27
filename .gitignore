@@ -1,3 +1,6 @@
 .Rproj.user
 .Rhistory
 .Ruserdata
+*.pdf
+*.tif
+*.Rda
